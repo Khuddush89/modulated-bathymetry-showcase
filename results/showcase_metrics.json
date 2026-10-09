@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "model": "linear effective modulated-bathymetry system",
+  "epsilon": 0.35,
+  "grid": 65,
+  "domain": [
+    0,
+    6.283185307179586
+  ],
+  "time_interval": [
+    0,
+    6.283185307179586
+  ],
+  "frames": 80,
+  "spectral": [
+    {
+      "epsilon": 0.8,
+      "complete_error": 0.00747079242137616,
+      "omitted_error": 0.00900933728536124,
+      "full_squared_frequencies": [
+        0.9973902533694532,
+        0.9974166141846015,
+        3.960151703195321,
+        3.960175654217163,
+        8.797495523780352,
+        8.797500305091667
+      ],
+      "observed_order": null
+    },
+    {
+      "epsilon": 0.4,
+      "complete_error": 0.0004944655261009956,
+      "omitted_error": 0.0008854586931619224,
+      "full_squared_frequencies": [
+        0.9993463527993085,
+        0.9993528608282272,
+        3.990089808520268,
+        3.9900950979282834,
+        8.950138219348794,
+        8.950139063346107
+      ],
+      "observed_order": 3.9173194311191213
+    },
+    {
+      "epsilon": 0.2,
+      "complete_error": 3.1302168000735264e-05,
+      "omitted_error": 0.00012946081676368237,
+      "full_squared_frequencies": [
+        0.9998365092912103,
+        0.9998381312065923,
+        3.9975258886507,
+        3.997527170731115,
+        8.987588247671003,
+        8.987588441188707
+      ],
+      "observed_order": 3.9815354531158738
+    },
+    {
+      "epsilon": 0.1,
+      "complete_error": 1.9624881097968228e-06,
+      "omitted_error": 2.652782378476104e-05,
+      "full_squared_frequencies": [
+        0.9999591223861226,
+        0.9999595274411821,
+        3.999381689798876,
+        3.999382007968481,
+        8.996900502156503,
+        8.99690054946862
+      ],
+      "observed_order": 3.9955067640259494
+    }
+  ],
+  "checks": {
+    "form_identity_absolute_error": 1.9255430583342559e-16,
+    "relative_energy_drift": 3.3306690738754696e-15,
+    "spectral_cutoff_12_to_14_change_at_epsilon_0_4": 1.7905676941154525e-11
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pillow": "12.3.0"
+  },
+  "scope": "Animations show computed linear effective flow and coefficient sweeps. No nonlinear homogenization theorem or field-data validation is claimed."
+}

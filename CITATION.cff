@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this repository showcase when reusing its original figures, code, or explanatory material."
+title: "Modulated Bathymetry: Research Showcase"
+type: software
+version: 1.0.0
+date-released: 2026-10-09
+authors:
+  - family-names: Khuddush
+    given-names: Mahammad
+abstract: "Original animated scientific visualizations, mathematical notes, and reproducible linear effective-wave computations for modulated periodic bathymetry."
+keywords:
+  - shallow water
+  - modulated bathymetry
+  - effective dispersion
+  - scientific visualization
